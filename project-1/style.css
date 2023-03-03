@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.main-img {
+  height: 500px;
+  width: 250px;
+  position: relative;
+  top: -3em;
+}
+header {
+  height: 100vh;
+}
+nav {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding-top: 3em;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+nav ul li a {
+  font-weight: 900;
+  text-decoration: none;
+}
+nav button {
+  padding: 6px 21px;
+  background-color: #1e1e21;
+  border-radius: 5px;
+}
+main {
+  position: relative;
+}
+.overview-div {
+  position: absolute;
+  width: 360px;
+  bottom: 7em;
+  right: 18em;
+}
+img[alt="onear"] {
+  padding-left: 2em;
+}
+.overview-div h1 {
+  font-weight: bolder;
+  font-size: 3em;
+}
+.overview-div h3 {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 0.4em auto;
+}
+.overview-div img {
+  background-color: transparent;
+}
+.overview-div p {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+.overview-div button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 330px;
+  margin: auto;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #1e1e21;
+  font-size: 1em;
+  font-weight: 500;
+}
+.overview-div span {
+  font-weight: bolder;
+  font-size: 1.3;
+  background-color: transparent;
+}
+.associate-brands {
+  height: 150px;
+  max-width: 60%;
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.specification {
+  height: 100vh;
+  text-align: center;
+}
+
+img[alt="specsLogo"] {
+  margin: 1em auto;
+}
+.specs-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+.specs {
+  margin: 2em auto;
+}
+
+.specs {
+  text-align: start;
+}
+.s1,
+.s4 {
+  margin-left: 3em;
+}
+
+#case-section {
+  text-align: center;
+}
+.case-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7em;
+}
+
+.case-right {
+  width: 400px;
+  height: auto;
+  text-align: left;
+  line-height: 1.7em;
+}
+.case-right button {
+  padding: 7px 20px;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background: #1e1e21;
+  margin-top: 1em;
+}
+.desc-section {
+  margin: auto;
+  max-width: 60%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  background: #1e1e21;
+  border-radius: 7px;
+}
+.desc-left button {
+  border-radius: 6px;
+  margin-top: 1em;
+  padding: 5px 10px;
+  border: none;
+}
+img[alt="buynow"] {
+  background-color: transparent;
+}
+.desc-left,
+.desc-right,
+.desc-left p,
+.desc-left h1 {
+  background-color: transparent;
+}
+.product-detail {
+  text-align: center;
+  margin-top: 3rem;
+}
+.product-container {
+  max-width: 40%;
+  margin: 5em auto;
+  padding: 1em auto 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6em;
+}
+.product-container::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #1e1e21;
+  border-radius: 6px;
+}
+img[alt="product"] {
+  scale: 0.5;
+  background-color: transparent;
+  position: absolute;
+  bottom: -2em;
+  right: -1em;
+}
+.product-img-div {
+  width: 100%;
+  height: 70%;
+  border-radius: 6px;
+  position: relative;
+}
+.product-img-div,
+.product-header h4,
+.product-header p {
+  background-color: #1e1e21;
+}
+.single-product-detail {
+  background-color: #1e1e21;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bag-img {
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+.icon-div {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+  line-height: 2em;
+  margin-top: 1em;
+}
+.other-icons input {
+  padding: 2em 3em;
+  width: 300px;
+  height: 10px;
+  border-radius: 9px;
+  margin-bottom: 2em;
+  border: none;
+  background-color: #1e1e21;
+}
+.email-div {
+  position: relative;
+}
+.other-icons button {
+  position: absolute;
+  right: 1em;
+  padding: 0.5em 1em;
+  top: 9px;
+  border: none;
+  border-radius: 5px;
+}
